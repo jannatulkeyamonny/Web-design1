@@ -1,0 +1,22 @@
+
+li{
+    list-style-type: none;
+}
+
+
+.footer{
+    padding-top: 130px;
+    padding-bottom: 150px;
+    background-color: black;
+    width: 1300px;
+}
+.footer h2{
+    font-weight: 800;
+    color: white;
+}
+.footer i{
+    color: #F4F4F4;
+    background: #242424;
+    border-radius: 100%;
+
+}
