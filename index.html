@@ -1,802 +1,1343 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Wishlist-Canvas</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/7c8116492a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/7c8116492a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- navbar section start -->
 
-    <div class="card bg-dark text-light ">
-      <div class="card-body d-flex justify-content-between" style="font-size: Bradley Hand, cursive ;">
+    <div class="card bg-dark text-light">
+      <div
+        class="card-body d-flex justify-content-between"
+        style="font-size: Bradley Hand, cursive"
+      >
         <h6 class="m-0">biagiotti@qodeinteractive.com</h6>
         <h6 class="M-0">Free shipping on international orders of $150+</h6>
-        <h6 class="m-0">log in  <button class="btn btn-outline-light  border-0 p-0"> <i class="fa-regular fa-user"></i></button></h6>
+        <h6 class="m-0">
+          log in
+          <button class="btn btn-outline-light border-0 p-0">
+            <i class="fa-regular fa-user"></i>
+          </button>
+        </h6>
       </div>
     </div>
 
-<!--  -->
-<!-- Nav2 -->
+    <!--  -->
+    <!-- Nav2 -->
 
-<!-- Navbar Section -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid d-flex align-content-center">
-    <a class="navbar-brand " href="#"><i class="fa-regular fa-heart"></i>Wishlist</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse d-flex gap-4 justify-content-center" id="navbarScroll" >
-      <li class="nav-item dropdown">
-        <a  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;color: black;">
-          Home
-        </a>
-        <ul class="dropdown-menu bg-black">
-          <li><a class="dropdown-item text-white" href="#">Action</a></li>
-          <li><a class="dropdown-item text-white" href="#">Another action</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
-        </ul>
-      </li>
-      <li class="nav-item dropdown">
-        <a  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;color: black;">
-          Pages
-        </a>
-        <ul class="dropdown-menu bg-black">
-          <li><a class="dropdown-item text-white" href="#">Action</a></li>
-          <li><a class="dropdown-item text-whitedropdown-item" href="#">Another action</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
-        </ul>
-      </li>
-      <li class="nav-item dropdown">
-        <a  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;color: black;">
-          Blog
-        </a>
-        <ul class="dropdown-menu bg-black">
-          <li><a class="dropdown-item text-white" href="#">Action</a></li>
-          <li><a class="dropdown-item text-white" href="#">Another action</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
-        </ul>
-      </li>
-      <h2  style="font-family: Brush Script MT, Brush Script Std, cursive;">Canvas</h2>
-      <li class="nav-item dropdown">
-        <a  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;color: black;">
-          Shop
-        </a>
-        <ul class="dropdown-menu bg-black">
-          <li><a class="dropdown-item text-white" href="#">Action</a></li>
-          <li><a class="dropdown-item text-white" href="#">Another action</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
-        </ul>
-      </li>
-      <li class="nav-item dropdown">
-        <a  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;color: black;">
-          Portfolio
-        </a>
-        <ul class="dropdown-menu bg-black">
-          <li><a class="dropdown-item text-white" href="#">Action</a></li>
-          <li><a class="dropdown-item text-white" href="#">Another action</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
-        </ul>
-      </li>
-      <li class="nav-item dropdown">
-        <a  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;color: black;">
-          Contact
-        </a>
-        <ul class="dropdown-menu bg-black">
-          <li><a class="dropdown-item text-white" href="#">Action</a></li>
-          <li><a class="dropdown-item text-white" href="#">Another action</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
-        </ul>
-      </li>
-    </div>
-    <div class="d-flex gap-4">
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <i class="fa-solid fa-bag-shopping"></i>
-    <i class="fa-solid fa-sliders"></i>
-    </div>
-
-  </div>
-</nav>
-
-<!-- Nav section end -->
-<!-- Carousel  Part Start-->
-
-<div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="/canvas/canvas1.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="/canvas/canvas2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="/canvas/canvas3.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-<!-- Carousel  Part end-->
-<!--Portrait  Section start-->
-<div class="text-center py-5 mt-5">
-  <h1 >FIND YOUR  MAGNIFICANT OIL PAINTING  </h1> <br>
-  <p style="font-family: Apple Chancery, cursive; font-size:20px;">The painting's novel qualities include the subject's enigmatic expression, monumentality of the composition, the subtle <br> modelling of forms, and the atmospheric illusionism.</p> 
-</div>
-<div class=" mt-3">
-  <div class="row row-cols-1 row-cols-md-4 g-4">
-    <div class="col">
-      <div class="card h-100">
-        <img src="./Portrait/portrait-1.jpg" class="card-img-top" style="height:70%;" alt="...">
-        <div class="card-body text-center px-5 py-5">
-          <h5 class="card-title fs-2">A half-length portrait </h5>
-          <p class="card-text fs-5 ">Painting by Italian artist</p>
-          <p class="card-text fw-bold ">$35.00</p>
-          <div style="color: orange;">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid d-flex align-content-center">
+        <a class="navbar-brand" href="#"
+          ><i class="fa-regular fa-heart"></i>Wishlist</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-flex gap-4 justify-content-center"
+          id="navbarScroll"
+        >
+          <li class="nav-item dropdown">
+            <a
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              style="text-decoration: none; color: black"
+            >
+              Home
+            </a>
+            <ul class="dropdown-menu bg-black">
+              <li><a class="dropdown-item text-white" href="#">Action</a></li>
+              <li>
+                <a class="dropdown-item text-white" href="#">Another action</a>
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <a class="dropdown-item text-white" href="#"
+                  >Something else here</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              style="text-decoration: none; color: black"
+            >
+              Pages
+            </a>
+            <ul class="dropdown-menu bg-black">
+              <li><a class="dropdown-item text-white" href="#">Action</a></li>
+              <li>
+                <a class="dropdown-item text-whitedropdown-item" href="#"
+                  >Another action</a
+                >
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <a class="dropdown-item text-white" href="#"
+                  >Something else here</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              style="text-decoration: none; color: black"
+            >
+              Blog
+            </a>
+            <ul class="dropdown-menu bg-black">
+              <li><a class="dropdown-item text-white" href="#">Action</a></li>
+              <li>
+                <a class="dropdown-item text-white" href="#">Another action</a>
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <a class="dropdown-item text-white" href="#"
+                  >Something else here</a
+                >
+              </li>
+            </ul>
+          </li>
+          <h2 style="font-family: Brush Script MT, Brush Script Std, cursive">
+            Canvas
+          </h2>
+          <li class="nav-item dropdown">
+            <a
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              style="text-decoration: none; color: black"
+            >
+              Shop
+            </a>
+            <ul class="dropdown-menu bg-black">
+              <li><a class="dropdown-item text-white" href="#">Action</a></li>
+              <li>
+                <a class="dropdown-item text-white" href="#">Another action</a>
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <a class="dropdown-item text-white" href="#"
+                  >Something else here</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              style="text-decoration: none; color: black"
+            >
+              Portfolio
+            </a>
+            <ul class="dropdown-menu bg-black">
+              <li><a class="dropdown-item text-white" href="#">Action</a></li>
+              <li>
+                <a class="dropdown-item text-white" href="#">Another action</a>
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <a class="dropdown-item text-white" href="#"
+                  >Something else here</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              style="text-decoration: none; color: black"
+            >
+              Contact
+            </a>
+            <ul class="dropdown-menu bg-black">
+              <li><a class="dropdown-item text-white" href="#">Action</a></li>
+              <li>
+                <a class="dropdown-item text-white" href="#">Another action</a>
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <a class="dropdown-item text-white" href="#"
+                  >Something else here</a
+                >
+              </li>
+            </ul>
+          </li>
         </div>
-        
-      </div>
-    </div>
-
-    <div class="col">
-      <div class="card h-100">
-        <img src="./Portrait/portrait-2.jpg" class="card-img-top" style="height:70%;" alt="...">
-        <div class="card-body text-center px-5 py-5 ">
-          <h5 class="card-title fs-2 ">A half-length portrait</h5>
-          <p class="card-text fs-5">Magnificent oil painting.</p>
-          <p class="card-text fw-bold ">$25.00</p>
-          <div style="color: orange;">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="/Portrait/portrait-3.jpg" class="card-img-top" style="height:70%;" alt="...">
-        <div class="card-body text-center px-5 py-5 ">
-          <h5 class="card-title fs-2 ">A half-length portrait</h5>
-          <p class="card-text fs-5">Magnificent oil painting.</p>
-          <p class="card-text fw-bold ">$30.00</p>
-          <div style="color: orange;">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="./Portrait/mona-lisa.jpg" class="card-img-top" style="height:70%;" alt="...">
-        <div class="card-body text-center px-5 py-5 ">
-          <h5 class="card-title fs-2 ">The Mona Lisa</h5>
-          <p class="card-text fs-5 ">Leonardo da Vinci's oil painting.</p>
-          <p class="card-text fw-bold ">$40.00</p>
-          <div style="color: orange;">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-        </div>
-       
-      </div>
-    </div>
-  </div>
-  
-</div>
-
-
-<!-- Portrait   Section End -->
-<!-- item start -->
-<section  class="bg-light mt-5">
-
-<div class="row row-cols-1 row-cols-md-4  g-1 py-5">
-  <div class="col">
-    <div class="card h-100 image-container ">
-      <img src="/Item/Item-1.jpg" class="card-img-top h-100" alt="...">
-      
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100 image-container ">
-      <img src="/Item/Item-2.webp" class="card-img-top h-100" alt="...">
-      
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100 image-container">
-      <img src="/Item/Item-3.jpg" class="card-img-top h-100" alt="...">
-      
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100 image-container">
-      <img src="/Item/Item4.jpg" class="card-img-top h-100" alt="...">
-  </div>
-</div>
-</div>
-
-<div class="row row-cols-1 row-cols-md-4 py-0 g-1">
-  <div class="col">
-    <div class="card  h-100 image-container">
-      <img src="/Item/Item-5.jpg" class="card-img-top h-100" alt="...">
-     
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100 image-container">
-      <img src="/Item/Item-6.jpg" class="card-img-top h-100" alt="...">
-      
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100 image-container">
-      <img src="/Item/Item-7.jpg" class="card-img-top h-100" alt="...">
-      
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100 image-container">
-      <img src="/Item/Item-8.jpeg" class="card-img-top h-100 " alt="...">
-      
-    </div>
-  </div>
-</div>
-
-</section>
-<!-- item end -->
-<!-- Companies section start -->
-<div class="container mt-5 " style="background-color:white; padding-top: 50px;padding-bottom: 50px;">
-  
-  <div class=" justify-content-between d-flex flex-wrap align-items-center">
-    <img src="/LOGO/image1.jpeg" class="img-fluid" style="height: 70PX; padding-right: 2%;">
-    <img src="/LOGO/image2.jpeg" class="img-fluid" style="height: 70PX; padding-right: 2%;">
-    <img src="/LOGO/image3.jpeg" class="img-fluid" style="height: 70PX; padding-right: 2%;">
-    <img src="/LOGO/image4.jpeg" class="img-fluid" style="height: 70PX; padding-right: 2%;">
-    <img src="/LOGO/image5.jpeg" class="img-fluid" style="height: 70PX; padding-right: 2%;">
-    <img src="/LOGO/image6.jpeg" class="img-fluid" style="height: 70PX; padding-right: 2%;">
-    <img src="/LOGO/image7.jpeg" class="img-fluid" style="height: 70PX; padding-right: 2%;">
-    <img src="/LOGO/image8.jpeg" class="img-fluid" style="height: 60PX; padding-right: 2%;">
-    
-    
-  </div>
-</div>
-<!-- Companies section end -->
-
-<!-- testimonial start -->
-
-<div id="carouselExampleCaptions" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-
-    <div class="carousel-item  active h-50" >
-      <div class="carousel-caption d-none d-md-block text-black "  >
-        <div style="padding-top:10px; padding-bottom: 50px;padding-left: 80px; padding-right: 30px;">
-        <h1 class=" fst-italic fs-1 fw-light  "  >Perfect Artist </h1>
-          <h2 class="fw-medium" >Testimonial</h2>
-         <p class="mkdf-testimonial-text fst-italic " style="font-size: 18px;">I don't work with a glam squad to get me together for the red carpet, I really enjoy the time it takes to do it myself, to choose my clothes and do my own makeup and my own hair.</p>
+        <div class="d-flex gap-4">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-bag-shopping"></i>
+          <i class="fa-solid fa-sliders"></i>
         </div>
       </div>
-      <img src="/Testimonial/Testimonial1.jpg" class="d-block " style="height:400px; width: 1700px;" alt="...">
-    </div>
+    </nav>
 
-    <div class="carousel-item  active h-50" >
-      <div class="carousel-caption d-none d-md-block text-black "  >
-        <div style="padding-top:10px; padding-bottom: 50px;padding-left: 80px; padding-right: 30px;">
-        <h1 class=" fst-italic fs-1 fw-light  "  >Perfect Artist </h1>
-          <h2 class="fw-medium" >Testimonial</h2>
-         <p class="mkdf-testimonial-text fst-italic " style="font-size: 18px;">I don't work with a glam squad to get me together for the red carpet, I really enjoy the time it takes to do it myself, to choose my clothes and do my own makeup and my own hair.</p>
+    <!-- Nav section end -->
+    <!-- Carousel  Part Start-->
+
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/canvas/canvas1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="/canvas/canvas2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="/canvas/canvas3.jpg" class="d-block w-100" alt="..." />
         </div>
       </div>
-      <img src="/Testimonial/Testimonial2.jpg" class="d-block " style="height:400px; width: 1700px;" alt="...">
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-
-    <div class="carousel-item  active h-50" >
-      <div class="carousel-caption d-none d-md-block text-black "  >
-        <div style="padding-top:10px; padding-bottom: 50px;padding-left: 80px; padding-right: 30px;">
-        <h1 class=" fst-italic fs-1 fw-light  "  >Perfect Artist </h1>
-          <h2 class="fw-medium" >Testimonial</h2>
-         <p class="mkdf-testimonial-text fst-italic " style="font-size: 18px;">I don't work with a glam squad to get me together for the red carpet, I really enjoy the time it takes to do it myself, to choose my clothes and do my own makeup and my own hair.</p>
-        </div>
-      </div>
-      <img src="/Testimonial/Testimonial3.jpg" class="d-block " style="height:400px; width: 1700px;" alt="...">
-    </div>
-
-
-    
-
-
-    
-
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-
-
-<!-- testimonial end -->
-
-<!-- Content start-->
-<section class="container d-flex  column-gap-3 mt-5" style="padding-top: 50PX;padding-bottom: 50px;">
-
-<div class="card   border border-0 mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="/number img/Number1.png" class="img-fluid rounded-start" style="height: 125px; width: 100px;" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">ON-LINE PURCHASE</h5>
-        <p class="card-text">At vero eos et accusamus et iusto odio digniss ducimus qui blanditiis praesentium volu</p>
-        
-      </div>
-    </div>
-  </div>
-  
-  
-</div>
-
-<div class="card border border-0 mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="/number img/Number2.png" class="img-fluid rounded-start" style="height: 125px; width: 100px;" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">FREE SHIPPING</h5>
-        <p class="card-text">At vero eos et accusamus et iusto odio digniss ducimus qui blanditiis praesentium volu</p>
-        
-      </div>
-    </div>
-  </div>
-  
-  
-</div>
-
-<div class="card border border-0 mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="/number img/Number3.png" class="img-fluid rounded-start" style="height: 125px; width: 100px;" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">MONEY BACK</h5>
-        <p class="card-text">At vero eos et accusamus et iusto odio digniss ducimus qui blanditiis praesentium volu</p>
-        
-      </div>
-    </div>
-  </div>
-  
-  
-</div>
-</section>
-
-
-
-<!-- Content end -->
-<!-- Get section -->
-
-<div class=" text-center ">
-  <div class="row row-cols-2 g-0">
-    <div class="col border  h-100">
-      <img src="/get/get1.jpg" class="img-fluid " alt="">
-    </div>
-    <div class="col bg-light   text-start" style="padding-top: 180px; padding-bottom: 150px; padding-left: 100px;" >
-      <div class=" text-start " >
-      <h2 class="fst-italic fs-1 fw-light " style="font-family: Brush Script MT, Brush Script Std, cursive; ">timeline </h2>
-      <h2 class="">HOW DID WE GET HERE</h2>
-      <p class="text-dark card-text fst-italic fs-6 gap-3">At vero eos et accusamus et iusto odio dignissimos <br> ducimus qui blanditiis praesentium voluptatum deleniti <br> atque corrupt</p>
-      
-      <p class="text-dark card-text fw-lighter  gap-3">At vero eos et accusamus et iusto odi odgnissimos ducimus qui  <br>blanditiis praesentium volup tatum deleniti atque corrupti quos <br> dolores et quas molestias excepturi sint occaecati cupiditate non <br> provident, similique sunt in culpa qui officia deserunt mollitia animi</p>
-      <div class="py-4">
-      <button class="text-center px-5 ">Find Portrait</button>
-      </div>
-    </div>
-    </div>
-
-    <div class="col bg-light  text-start" style="padding-top: 180px; padding-bottom: 150px; padding-left: 100px;" >
-      <div class=" text-start " >
-      <h2 class="fst-italic fs-1 fw-light " style="font-family: Brush Script MT, Brush Script Std, cursive; ">timeline </h2>
-      <h2 class="">WHAT IT TAKES TO LEAD</h2>
-      <p class="text-dark card-text fst-italic fs-6 gap-3">At vero eos et accusamus et iusto odio dignissimos <br> ducimus qui blanditiis praesentium voluptatum deleniti <br> atque corrupt</p>
-      
-      <p class="text-dark card-text fw-lighter  gap-3">At vero eos et accusamus et iusto odi odgnissimos ducimus qui  <br>blanditiis praesentium volup tatum deleniti atque corrupti quos <br> dolores et quas molestias excepturi sint occaecati cupiditate non <br> provident, similique sunt in culpa qui officia deserunt mollitia animi</p>
-      <div class="py-4">
-      <button class="text-center px-5 ">Find Portrait</button>
-    </div>
-    </div>
-    </div>
-
-    <div class="col h-100">
-      <img src="/get/get2.jpg" class="img-fluid" alt="">
-    </div>
-  </div>
-</div>
-
-
-<!-- set end -->
-
-<!-- latest Canvas start -->
-<section class="">
-  <div class="text-center py-5 mt-5">
-    <h1 >LATEST PAINTING </h1> <br>
-    <p style="font-family: Apple Chancery, cursive; font-size:20px;">The painting's novel qualities include the subject's enigmatic expression, monumentality of the composition, the subtle <br> modelling of forms, and the atmospheric illusionism.</p> 
-  </div>
-
- <div class="d-flex  column-gap-1 mt-2" >
-
-<div class="card mb-3  border-0" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="./painting/birds painting.jpeg" class="img-fluid rounded-start py-5  "  style="height: 200px; width:100px;" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Oil Painting Bird</h5>
-        <p class="card-text fs-6 fw-light py-1">Major benefit to painting with oil is that its sheen, translucence, and thickness can be adjusted to suit  the  artist’s desire.</p>
-        <p class="card-text"><small class="text-body-secondary fw-bold">$3600</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="card mb-3 border-0 " style="max-width:540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="./painting/Creative canvas.jpeg" class="img-fluid rounded-start py-5" style="height: 200px; width:100px;"   alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Creative Canvas</h5>
-        <p class="card-text fs-6 fw-light py-1"> Major benefit to painting with oil is that its sheen, translucence, and thickness can be adjusted to suit the  artist’s desire.</p>
-        <p class="card-text"><small class="text-body-secondary fw-bold">$3600</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="card mb-3 border-0 " style="max-width:540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="./painting/birds painting.jpeg" class="img-fluid rounded-start py-5"  style="height: 200px; width:100px;" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Oil Painting Bird</h5>
-        <p class="card-text fs-6 fw-light py-1"> Major benefit to painting with oil is that its sheen, translucence, and thickness can be adjusted to suit the  artist’s desire.</p>
-        <p class="card-text"><small class="text-body-secondary fw-bold">$3600</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="card mb-3 border-0 " style="max-width:540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="./painting/birds painting.jpeg" class="img-fluid rounded-start py-5 " style="height: 200px; width:100px;" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Oil Painting Bird</h5>
-        <p class="card-text fs-6 fw-light py-1"> Major benefit to painting with oil is that its sheen, translucence, and thickness can be adjusted to suit the  artist’s desire.</p>
-        <p class="card-text"><small class="text-body-secondary fw-bold">$3600</small></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-    
-</div> 
-
-
-
-
-<div class="d-flex  column-gap-1 mt-2" >
-
-  <div class="card mb-3  border-0" style="max-width: 540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="./painting/birds painting.jpeg" class="img-fluid rounded-start py-5 " style="height: 200px; width:100px;" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Oil Painting Bird</h5>
-          <p class="card-text fs-6 fw-light py-1">Major benefit to painting with oil is that its sheen, translucence, and thickness can be adjusted to suit  the  artist’s desire.</p>
-          <p class="card-text"><small class="text-body-secondary fw-bold">$3600</small></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="card mb-3 border-0 " style="max-width:540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="./painting/birds painting.jpeg" class="img-fluid rounded-start py-5 " style="height: 200px; width:100px;"  alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Oil Painting Bird</h5>
-          <p class="card-text fs-6 fw-light py-1"> Major benefit to painting with oil is that its sheen, translucence, and thickness can be adjusted to suit the  artist’s desire.</p>
-          <p class="card-text"><small class="text-body-secondary fw-bold">$3600</small></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="card mb-3 border-0 " style="max-width:540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="./painting/birds painting.jpeg" class="img-fluid rounded-start py-5 " style="height: 200px; width:100px;" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Oil Painting Bird</h5>
-          <p class="card-text fs-6 fw-light py-1"> Major benefit to painting with oil is that its sheen, translucence, and thickness can be adjusted to suit the  artist’s desire.</p>
-          <p class="card-text"><small class="text-body-secondary fw-bold">$3600</small></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="card mb-3 border-0 " style="max-width:540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="./painting/birds painting.jpeg" class="img-fluid rounded-start py-5 " style="height: 200px; width:100px;" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Oil Painting Bird</h5>
-          <p class="card-text fs-6 fw-light py-1"> Major benefit to painting with oil is that its sheen, translucence, and thickness can be adjusted to suit the  artist’s desire.</p>
-          <p class="card-text"><small class="text-body-secondary fw-bold">$3600</small></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-      
-  </div> 
-
-
-
-  
- <div class="d-flex  column-gap-1 mt-2" >
-
-  <div class="card mb-3  border-0" style="max-width: 540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="./painting/birds painting.jpeg" class="img-fluid rounded-start py-5 " style="height: 200px; width:100px;" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Oil Painting Bird</h5>
-          <p class="card-text fs-6 fw-light py-1">Major benefit to painting with oil is that its sheen, translucence, and thickness can be adjusted to suit  the  artist’s desire.</p>
-          <p class="card-text"><small class="text-body-secondary fw-bold">$3600</small></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="card mb-3 border-0 " style="max-width:540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="./painting/birds painting.jpeg" class="img-fluid rounded-start py-5" style="height: 200px; width:100px;" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Oil Painting Bird</h5>
-          <p class="card-text fs-6 fw-light py-1"> Major benefit to painting with oil is that its sheen, translucence, and thickness can be adjusted to suit the  artist’s desire.</p>
-          <p class="card-text"><small class="text-body-secondary fw-bold">$3600</small></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="card mb-3 border-0 " style="max-width:540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="./painting/birds painting.jpeg" class="img-fluid rounded-start py-5 " style="height: 200px; width:100px;" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Oil Painting Bird</h5>
-          <p class="card-text fs-6 fw-light py-1"> Major benefit to painting with oil is that its sheen, translucence, and thickness can be adjusted to suit the  artist’s desire.</p>
-          <p class="card-text"><small class="text-body-secondary fw-bold">$3600</small></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="card mb-3 border-0 " style="max-width:540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="./painting/birds painting.jpeg" class="img-fluid rounded-start py-5 " style="height: 200px; width:100px;" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Oil Painting Bird</h5>
-          <p class="card-text fs-6 fw-light py-1"> Major benefit to painting with oil is that its sheen, translucence, and thickness can be adjusted to suit the  artist’s desire.</p>
-          <p class="card-text"><small class="text-body-secondary fw-bold">$3600</small></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-      
-  </div> 
-
-</section>
-
-  <!-- latest canvas end -->
-
-  
-  <!--Quality section start-->
-  <div class="py-5 mt-5" style="background-color: rgb(245, 243, 240);">
-    <div class="row row-cols-1 row-cols-md-5 g-4">
-      <div class="col">
-        <div class="card h-100 border-0">
-         <div style="padding-left: 90px;padding-top: 50px;">
-          <img src="./h-icon/m-h-icon-front-1.png" class="card-img-top rounded-circle  shadow-lg p-3 mb-5 bg-body-tertiary rounded   " style="height: 100px; width: 100px ;" alt="...">
-        </div>
-        
-          <div class="card-body text-center">
-            <h5 class="card-title">FRAGRANCE</h5>
-            <p class="card-text">At vero eos et accusamus et iusto odio dignissi mos ducimus qui blanditiis praesentium</p>
-          </div>
-          
-        </div>
-      </div>
-  
-      <div class="col">
-        <div class="card h-100 border-0">
-          <div style="padding-left: 90px;padding-top: 50px;">
-            <img src="./h-icon/m-h-icon-front-2.png" class="card-img-top rounded-circle  shadow-lg p-3 mb-5 bg-body-tertiary rounded   " style="height: 100px; width: 100px ;" alt="...">
-          </div>
-
-          <div class="card-body text-center">
-            <h5 class="card-title">QUALITY</h5>
-            <p class="card-text">At vero eos et accusamus et iusto odio dignissi mos ducimus qui blanditiis praesentium</p>
-          </div>
-          
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100 border-0">
-          <div style="padding-left: 90px;padding-top: 50px;">
-            <img src="./h-icon/m-h-icon-front-3.png" class="card-img-top rounded-circle  shadow-lg p-3 mb-5 bg-body-tertiary rounded   " style="height: 100px; width: 100px ;" alt="...">
-          </div>
-          <div class="card-body text-center">
-            <h5 class="card-title">PETROLEUM</h5>
-            <p class="card-text">At vero eos et accusamus et iusto odio dignissi mos ducimus qui blanditiis praesentiumr</p>
-          </div>
-          
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100 border-0">
-          <div style="padding-left: 90px;padding-top: 50px;">
-            <img src="./h-icon/m-h-icon-front-4.png" class="card-img-top rounded-circle  shadow-lg p-3 mb-5 bg-body-tertiary rounded   " style="height: 100px; width: 100px ;" alt="...">
-          </div>
-          <div class="card-body text-center">
-            <h5 class="card-title">COLORS</h5>
-            <p class="card-text">At vero eos et accusamus et iusto odio dignissi mos ducimus qui blanditiis praesentium</p>
-          </div>
-         
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100 border-0">
-          <div style="padding-left: 90px;padding-top: 50px;">
-            <img src="./h-icon/m-h-icon-front-5.png" class="card-img-top rounded-circle  shadow-lg p-3 mb-5 bg-body-tertiary rounded   " style="height: 100px; width: 100px ;" alt="...">
-          </div>
-          <div class="card-body text-center">
-            <h5 class="card-title">NATURAL</h5>
-            <p class="card-text">At vero eos et accusamus et iusto odio dignissi mos ducimus qui blanditiis praesentium</p>
-          </div>
-         
-        </div>
-      </div>
-
-    </div>
-    
-  </div>
-  <!--  Quality section end -->
-
- <!-- footer start -->
-<div class="">
-  <div class="d-flex">
-    <div class="text-center grid footer">
-      <h2>CONTACT</h2>
-      <p class="text-light card-text fst-italic">Address: Seestrasse 21, Zurich <br>
-        E-mail: biagiotti@qodeinteractive.com<br>
-        Phone : + 99 411 725 39 12<br>
-        <br></p>
-        <img src="/LOGO/card/bkash.jpg" style="width: 30px;">
-        <img src="/LOGO/card/credit card.jpg" style="width: 40px;">
-        <img src="/LOGO/card/credit card1.jpg" style="width: 30px;">
-        <img src="/LOGO/card/credit card2.jpg" style="width: 40px;">
-        <img src="/LOGO/card/credit card3.jpg" style="width: 30px;">
-  
-      </div>
-      <div class="text-center grid footer">
-      <h2 class="fst-italic" style="font-family: Brush Script MT, Brush Script Std, cursive;">Canvas Picker</h2>
-      <p class="text-light card-text fst-italic">An oasis of online beauty built specifically <br>
-        so your new cosmetics site can take everyone’s breaths away.<br>
-        <br>
-        Privacy Policy | Terms of use
+    <!-- Carousel  Part end-->
+    <!--Portrait  Section start-->
+    <div class="text-center py-5 mt-5">
+      <h1>FIND YOUR MAGNIFICANT OIL PAINTING</h1>
+      <br />
+      <p style="font-family: Apple Chancery, cursive; font-size: 20px">
+        The painting's novel qualities include the subject's enigmatic
+        expression, monumentality of the composition, the subtle <br />
+        modelling of forms, and the atmospheric illusionism.
       </p>
-        <i class="fa-brands fa-facebook-f p-2 m-1"></i>
-        <i class="fa-brands fa-twitter p-2 m-1"></i>
-        <i class="fa-brands fa-linkedin-in p-2 m-1"></i>
-        <i class="fa-brands fa-tiktok p-2 m-1"></i> 
+    </div>
+    <div class="mt-3">
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./Portrait/portrait-1.jpg"
+              class="card-img-top"
+              style="height: 70%"
+              alt="..."
+            />
+            <div class="card-body text-center px-5 py-5">
+              <h5 class="card-title fs-2">A half-length portrait</h5>
+              <p class="card-text fs-5">Painting by Italian artist</p>
+              <p class="card-text fw-bold">$35.00</p>
+              <div style="color: orange">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./Portrait/portrait-2.jpg"
+              class="card-img-top"
+              style="height: 70%"
+              alt="..."
+            />
+            <div class="card-body text-center px-5 py-5">
+              <h5 class="card-title fs-2">A half-length portrait</h5>
+              <p class="card-text fs-5">Magnificent oil painting.</p>
+              <p class="card-text fw-bold">$25.00</p>
+              <div style="color: orange">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="/Portrait/portrait-3.jpg"
+              class="card-img-top"
+              style="height: 70%"
+              alt="..."
+            />
+            <div class="card-body text-center px-5 py-5">
+              <h5 class="card-title fs-2">A half-length portrait</h5>
+              <p class="card-text fs-5">Magnificent oil painting.</p>
+              <p class="card-text fw-bold">$30.00</p>
+              <div style="color: orange">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./Portrait/mona-lisa.jpg"
+              class="card-img-top"
+              style="height: 70%"
+              alt="..."
+            />
+            <div class="card-body text-center px-5 py-5">
+              <h5 class="card-title fs-2">The Mona Lisa</h5>
+              <p class="card-text fs-5">Leonardo da Vinci's oil painting.</p>
+              <p class="card-text fw-bold">$40.00</p>
+              <div style="color: orange">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="text-center grid footer">
-      <h2 class="fst-italic">COLLECTIONS</h2>
-      <p class="text-light card-text fst-italic">Glowing paint is a result <br>
-        ABCDEH Canvas – Forever Painting<br>
-        Pure Painter Solutions
-        <br></p>
+    </div>
+
+    <!-- Portrait   Section End -->
+    <!-- item start -->
+    <section class="bg-light mt-5">
+      <div class="row row-cols-1 row-cols-md-4 g-1 py-5">
+        <div class="col">
+          <div class="card h-100 image-container">
+            <img src="/Item/Item-1.jpg" class="card-img-top h-100" alt="..." />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 image-container">
+            <img src="/Item/Item-2.webp" class="card-img-top h-100" alt="..." />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 image-container">
+            <img src="/Item/Item-3.jpg" class="card-img-top h-100" alt="..." />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 image-container">
+            <img src="/Item/Item4.jpg" class="card-img-top h-100" alt="..." />
+          </div>
+        </div>
       </div>
+
+      <div class="row row-cols-1 row-cols-md-4 py-0 g-1">
+        <div class="col">
+          <div class="card h-100 image-container">
+            <img src="/Item/Item-5.jpg" class="card-img-top h-100" alt="..." />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 image-container">
+            <img src="/Item/Item-6.jpg" class="card-img-top h-100" alt="..." />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 image-container">
+            <img src="/Item/Item-7.jpg" class="card-img-top h-100" alt="..." />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 image-container">
+            <img src="/Item/Item-8.jpeg" class="card-img-top h-100" alt="..." />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- item end -->
+    <!-- Companies section start -->
+    <div
+      class="container mt-5"
+      style="background-color: white; padding-top: 50px; padding-bottom: 50px"
+    >
+      <div class="justify-content-between d-flex flex-wrap align-items-center">
+        <img
+          src="/LOGO/image1.jpeg"
+          class="img-fluid  "
+          style="height: 70px; padding-right: 2%"
+        />
+        <img
+          src="/LOGO/image2.jpeg"
+          class="img-fluid"
+          style="height: 70px; padding-right: 2%"
+        />
+        <img
+          src="/LOGO/image3.jpeg"
+          class="img-fluid"
+          style="height: 70px; padding-right: 2%"
+        />
+        <img
+          src="/LOGO/image4.jpeg"
+          class="img-fluid"
+          style="height: 70px; padding-right: 2%"
+        />
+        <img
+          src="/LOGO/image5.jpeg"
+          class="img-fluid"
+          style="height: 70px; padding-right: 2%"
+        />
+        <img
+          src="/LOGO/image6.jpeg"
+          class="img-fluid"
+          style="height: 70px; padding-right: 2%"
+        />
+        <img
+          src="/LOGO/image7.jpeg"
+          class="img-fluid"
+          style="height: 70px; padding-right: 2%"
+        />
+        <img
+          src="/LOGO/image8.jpeg"
+          class="img-fluid"
+          style="height: 60px; padding-right: 2%"
+        />
+      </div>
+    </div>
+    <!-- Companies section end -->
+
+    <!-- testimonial start -->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active h-50">
+          <div class="carousel-caption d-none d-md-block text-black">
+            <div
+              style="
+                padding-top: 10px;
+                padding-bottom: 50px;
+                padding-left: 80px;
+                padding-right: 30px;
+              "
+            >
+              <h1 class="fst-italic fs-1 fw-light">Perfect Artist</h1>
+              <h2 class="fw-medium">Testimonial</h2>
+              <p
+                class="mkdf-testimonial-text fst-italic"
+                style="font-size: 18px"
+              >
+                I don't work with a glam squad to get me together for the red
+                carpet, I really enjoy the time it takes to do it myself, to
+                choose my clothes and do my own makeup and my own hair.
+              </p>
+            </div>
+          </div>
+          <img
+            src="/Testimonial/Testimonial1.jpg"
+            class="d-block"
+            style="height: 400px; width: 1700px"
+            alt="..."
+          />
+        </div>
+
+        <div class="carousel-item active h-50">
+          <div class="carousel-caption d-none d-md-block text-black">
+            <div
+              style="
+                padding-top: 10px;
+                padding-bottom: 50px;
+                padding-left: 80px;
+                padding-right: 30px;
+              "
+            >
+              <h1 class="fst-italic fs-1 fw-light">Perfect Artist</h1>
+              <h2 class="fw-medium">Testimonial</h2>
+              <p
+                class="mkdf-testimonial-text fst-italic"
+                style="font-size: 18px"
+              >
+                I don't work with a glam squad to get me together for the red
+                carpet, I really enjoy the time it takes to do it myself, to
+                choose my clothes and do my own makeup and my own hair.
+              </p>
+            </div>
+          </div>
+          <img
+            src="/Testimonial/Testimonial2.jpg"
+            class="d-block"
+            style="height: 400px; width: 1700px"
+            alt="..."
+          />
+        </div>
+
+        <div class="carousel-item active h-50">
+          <div class="carousel-caption d-none d-md-block text-black">
+            <div
+              style="
+                padding-top: 10px;
+                padding-bottom: 50px;
+                padding-left: 80px;
+                padding-right: 30px;
+              "
+            >
+              <h1 class="fst-italic fs-1 fw-light">Perfect Artist</h1>
+              <h2 class="fw-medium">Testimonial</h2>
+              <p
+                class="mkdf-testimonial-text fst-italic"
+                style="font-size: 18px"
+              >
+                I don't work with a glam squad to get me together for the red
+                carpet, I really enjoy the time it takes to do it myself, to
+                choose my clothes and do my own makeup and my own hair.
+              </p>
+            </div>
+          </div>
+          <img
+            src="/Testimonial/Testimonial3.jpg"
+            class="d-block"
+            style="height: 400px; width: 1700px"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- testimonial end -->
+
+    <!-- Content start-->
+    <section
+      class="container d-flex column-gap-3 mt-5"
+      style="padding-top: 50px; padding-bottom: 50px"
+    >
+      <div class="card border border-0 mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="/number img/Number1.png"
+              class="img-fluid rounded-start"
+              style="height: 125px; width: 100px"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">ON-LINE PURCHASE</h5>
+              <p class="card-text">
+                At vero eos et accusamus et iusto odio digniss ducimus qui
+                blanditiis praesentium volu
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card border border-0 mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="/number img/Number2.png"
+              class="img-fluid rounded-start"
+              style="height: 125px; width: 100px"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">FREE SHIPPING</h5>
+              <p class="card-text">
+                At vero eos et accusamus et iusto odio digniss ducimus qui
+                blanditiis praesentium volu
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card border border-0 mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="/number img/Number3.png"
+              class="img-fluid rounded-start"
+              style="height: 125px; width: 100px"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">MONEY BACK</h5>
+              <p class="card-text">
+                At vero eos et accusamus et iusto odio digniss ducimus qui
+                blanditiis praesentium volu
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content end -->
+    <!-- Get section -->
+
+    <div class="text-center">
+      <div class="row row-cols-2 g-0">
+        <div class="col border h-100">
+          <img src="/get/get1.jpg" class="img-fluid" alt="" />
+        </div>
+        <div
+          class="col bg-light text-start"
+          style="padding-top: 180px; padding-bottom: 150px; padding-left: 100px"
+        >
+          <div class="text-start">
+            <h2
+              class="fst-italic fs-1 fw-light"
+              style="font-family: Brush Script MT, Brush Script Std, cursive"
+            >
+              timeline
+            </h2>
+            <h2 class="">HOW DID WE GET HERE</h2>
+            <p class="text-dark card-text fst-italic fs-6 gap-3">
+              At vero eos et accusamus et iusto odio dignissimos <br />
+              ducimus qui blanditiis praesentium voluptatum deleniti <br />
+              atque corrupt
+            </p>
+
+            <p class="text-dark card-text fw-lighter gap-3">
+              At vero eos et accusamus et iusto odi odgnissimos ducimus qui
+              <br />blanditiis praesentium volup tatum deleniti atque corrupti
+              quos <br />
+              dolores et quas molestias excepturi sint occaecati cupiditate non
+              <br />
+              provident, similique sunt in culpa qui officia deserunt mollitia
+              animi
+            </p>
+            <div class="py-4">
+              <button class="text-center px-5">Find Portrait</button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col bg-light text-start"
+          style="padding-top: 180px; padding-bottom: 150px; padding-left: 100px"
+        >
+          <div class="text-start">
+            <h2
+              class="fst-italic fs-1 fw-light"
+              style="font-family: Brush Script MT, Brush Script Std, cursive"
+            >
+              timeline
+            </h2>
+            <h2 class="">WHAT IT TAKES TO LEAD</h2>
+            <p class="text-dark card-text fst-italic fs-6 gap-3">
+              At vero eos et accusamus et iusto odio dignissimos <br />
+              ducimus qui blanditiis praesentium voluptatum deleniti <br />
+              atque corrupt
+            </p>
+
+            <p class="text-dark card-text fw-lighter gap-3">
+              At vero eos et accusamus et iusto odi odgnissimos ducimus qui
+              <br />blanditiis praesentium volup tatum deleniti atque corrupti
+              quos <br />
+              dolores et quas molestias excepturi sint occaecati cupiditate non
+              <br />
+              provident, similique sunt in culpa qui officia deserunt mollitia
+              animi
+            </p>
+            <div class="py-4">
+              <button class="text-center px-5">Find Portrait</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col h-100">
+          <img src="/get/get2.jpg" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- set end -->
+
+    <!-- latest Canvas start -->
+    <section class="">
+      <div class="text-center py-5 mt-5">
+        <h1>LATEST PAINTING</h1>
+        <br />
+        <p style="font-family: Apple Chancery, cursive; font-size: 20px">
+          The painting's novel qualities include the subject's enigmatic
+          expression, monumentality of the composition, the subtle <br />
+          modelling of forms, and the atmospheric illusionism.
+        </p>
+      </div>
+
+      <div class="d-flex column-gap-1 mt-2">
+        <div class="card mb-3 border-0" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="./painting/birds painting.jpeg"
+                class="img-fluid rounded-start py-5"
+                style="height: 200px; width: 100px"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Oil Painting Bird</h5>
+                <p class="card-text fs-6 fw-light py-1">
+                  Major benefit to painting with oil is that its sheen,
+                  translucence, and thickness can be adjusted to suit the
+                  artist’s desire.
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary fw-bold">$3600</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 border-0" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="./painting/Creative canvas.jpeg"
+                class="img-fluid rounded-start py-5"
+                style="height: 200px; width: 100px"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Creative Canvas</h5>
+                <p class="card-text fs-6 fw-light py-1">
+                  Major benefit to painting with oil is that its sheen,
+                  translucence, and thickness can be adjusted to suit the
+                  artist’s desire.
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary fw-bold">$3600</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 border-0" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="./painting/fullmoon-822x1024.jpg"
+                class="img-fluid rounded-start py-5"
+                style="height: 200px; width: 100px"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Oil Painting fullmoon</h5>
+                <p class="card-text fs-6 fw-light py-1">
+                  Major benefit to painting with oil is that its sheen,
+                  translucence, and thickness can be adjusted to suit the
+                  artist’s desire.
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary fw-bold">$3600</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 border-0" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="./painting/Mindblowing canvas.jpeg"
+                class="img-fluid rounded-start py-5"
+                style="height: 200px; width: 100px"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Mindblowing canvas</h5>
+                <p class="card-text fs-6 fw-light py-1">
+                  Major benefit to painting with oil is that its sheen,
+                  translucence, and thickness can be adjusted to suit the
+                  artist’s desire.
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary fw-bold">$3600</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex column-gap-1 mt-2">
+        <div class="card mb-3 border-0" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="./painting/Painting Nice Day.jpeg"
+                class="img-fluid rounded-start py-5"
+                style="height: 200px; width: 100px"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Oil Painting Nice Day</h5>
+                <p class="card-text fs-6 fw-light py-1">
+                  Major benefit to painting with oil is that its sheen,
+                  translucence, and thickness can be adjusted to suit the
+                  artist’s desire.
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary fw-bold">$3600</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 border-0" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="./painting/Painting Rainy Day.jpeg"
+                class="img-fluid rounded-start py-5"
+                style="height: 200px; width: 100px"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Oil Painting Rainy Day</h5>
+                <p class="card-text fs-6 fw-light py-1">
+                  Major benefit to painting with oil is that its sheen,
+                  translucence, and thickness can be adjusted to suit the
+                  artist’s desire.
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary fw-bold">$3600</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 border-0" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="./painting/painting Umbrella with girl.jpeg"
+                class="img-fluid rounded-start py-5"
+                style="height: 200px; width: 100px"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Oil Painting Umbrella with girl</h5>
+                <p class="card-text fs-6 fw-light py-1">
+                  Major benefit to painting with oil is that its sheen,
+                  translucence, and thickness can be adjusted to suit the
+                  artist’s desire.
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary fw-bold">$3600</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 border-0" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="./painting/painting1.jpeg"
+                class="img-fluid rounded-start py-5"
+                style="height: 200px; width: 100px"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Oil Painting</h5>
+                <p class="card-text fs-6 fw-light py-1">
+                  Major benefit to painting with oil is that its sheen,
+                  translucence, and thickness can be adjusted to suit the
+                  artist’s desire.
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary fw-bold">$3600</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex column-gap-1 mt-2">
+        <div class="card mb-3 border-0" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="./painting/painting2.jpeg"
+                class="img-fluid rounded-start py-5"
+                style="height: 200px; width: 100px"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Oil Painting</h5>
+                <p class="card-text fs-6 fw-light py-1">
+                  Major benefit to painting with oil is that its sheen,
+                  translucence, and thickness can be adjusted to suit the
+                  artist’s desire.
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary fw-bold">$3600</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 border-0" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="./painting/painting3.jpg"
+                class="img-fluid rounded-start py-5"
+                style="height: 200px; width: 100px"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Oil Painting</h5>
+                <p class="card-text fs-6 fw-light py-1">
+                  Major benefit to painting with oil is that its sheen,
+                  translucence, and thickness can be adjusted to suit the
+                  artist’s desire.
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary fw-bold">$3600</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 border-0" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="./painting/Sea -View Painting.jpeg"
+                class="img-fluid rounded-start py-5"
+                style="height: 200px; width: 100px"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Oil Painting Sea-View Painting</h5>
+                <p class="card-text fs-6 fw-light py-1">
+                  Major benefit to painting with oil is that its sheen,
+                  translucence, and thickness can be adjusted to suit the
+                  artist’s desire.
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary fw-bold">$3600</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 border-0" style="max-width: 540px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="./painting/birds painting.jpeg"
+                class="img-fluid rounded-start py-5"
+                style="height: 200px; width: 100px"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Oil Painting Bird</h5>
+                <p class="card-text fs-6 fw-light py-1">
+                  Major benefit to painting with oil is that its sheen,
+                  translucence, and thickness can be adjusted to suit the
+                  artist’s desire.
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary fw-bold">$3600</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- latest canvas end -->
+
+    <!--Quality section start-->
+    <div class="py-5 mt-5" style="background-color: rgb(245, 243, 240)">
+      <div class="row row-cols-1 row-cols-md-5 g-4">
+        <div class="col">
+          <div class="card h-100 image-container border-0">
+            <div style="padding-left: 90px; padding-top: 50px">
+              <img
+                src="./h-icon/m-h-icon-front-1.png"
+                class="card-img-top rounded-circle shadow-lg p-3 mb-5 bg-body-tertiary rounded"
+                style="height: 100px; width: 100px"
+                alt="..."
+              />
+            </div>
+
+            <div class="card-body text-center">
+              <h5 class="card-title">FRAGRANCE</h5>
+              <p class="card-text">
+                At vero eos et accusamus et iusto odio dignissi mos ducimus qui
+                blanditiis praesentium
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 image-container border-0">
+            <div style="padding-left: 90px; padding-top: 50px">
+              <img
+                src="./h-icon/m-h-icon-front-2.png"
+                class="card-img-top rounded-circle shadow-lg p-3 mb-5 bg-body-tertiary rounded"
+                style="height: 100px; width: 100px"
+                alt="..."
+              />
+            </div>
+
+            <div class="card-body text-center">
+              <h5 class="card-title">QUALITY</h5>
+              <p class="card-text">
+                At vero eos et accusamus et iusto odio dignissi mos ducimus qui
+                blanditiis praesentium
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 image-container border-0">
+            <div style="padding-left: 90px; padding-top: 50px">
+              <img
+                src="./h-icon/m-h-icon-front-3.png"
+                class="card-img-top rounded-circle shadow-lg p-3 mb-5 bg-body-tertiary rounded"
+                style="height: 100px; width: 100px"
+                alt="..."
+              />
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">PETROLEUM</h5>
+              <p class="card-text">
+                At vero eos et accusamus et iusto odio dignissi mos ducimus qui
+                blanditiis praesentiumr
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 image-container border-0">
+            <div style="padding-left: 90px; padding-top: 50px">
+              <img
+                src="./h-icon/m-h-icon-front-4.png"
+                class="card-img-top rounded-circle shadow-lg p-3 mb-5 bg-body-tertiary rounded"
+                style="height: 100px; width: 100px"
+                alt="..."
+              />
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">COLORS</h5>
+              <p class="card-text">
+                At vero eos et accusamus et iusto odio dignissi mos ducimus qui
+                blanditiis praesentium
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 image-container border-0">
+            <div style="padding-left: 90px; padding-top: 50px">
+              <img
+                src="./h-icon/m-h-icon-front-5.png"
+                class="card-img-top rounded-circle shadow-lg p-3 mb-5 bg-body-tertiary rounded"
+                style="height: 100px; width: 100px"
+                alt="..."
+              />
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">NATURAL</h5>
+              <p class="card-text">
+                At vero eos et accusamus et iusto odio dignissi mos ducimus qui
+                blanditiis praesentium
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  Quality section end -->
+
+
+      <!-- Attractive painting section content start-->
+  <div class="text-center mt-5">
+    <h1> FIND YOUR ATTRACTIVE OIL PAINTING</h1>
+    <p class="fst-italic">Oil painting is a style that can seem fun and accessible for beginners</p> 
   </div>
-  <div class="container-fluid border-subtle bg-dark border-top">
-  <div class="d-flex justify-content-around">
-    <a class="navbar-brand text-white" href="#">PRIVACY POLICY</a>
-    <a class="navbar-brand text-white" href="#">TERMS AND CONDITIONS</a>
-    <a class="navbar-brand text-white" href="#">ABOUT</a>
-    <a class="navbar-brand text-white" href="#">SHIPPING INFO</a>
-    <a class="navbar-brand text-white" href="#">RETURNS/EXCHANGES</a>
-    <a class="navbar-brand text-white" href="#">CONTACT</a>
-  </div>
-  
-  
-  
-  </div>
-  </div>
-  
-<!-- ftr end -->
+   <!-- Attractive painting section content end-->
+
+  <!--Attractive painting start-->
+  <div class="container py-5 mt-3">
+  <div class="row row-cols-1 row-cols-md-4 g-4">
+
+    <div class="col">
+      <div class="card h-100 image-container ">
+        <img src="/Attractive view/abstract-white-flowers-painting-by-acrylic-and-oil-helen-carajova.jpg" class="card-img-top h-50" alt="...">
+        <div class="card-body text-start">
+          <h1 class="fs-6" style="color: gray;" >by-acrylic-and-oil-helen-carajova</h1>
+          <h5 class="card-title">-white-flowers-painting-</h5>
+          <p class="card-text fw-normal " style="color: gray;">oil painting is all about creating interesting effects—whether that’s a unique texture, a metallic effect or striking colour combination. </p>
+          <h1 class="fs-6">-Read More-</h1>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 image-container ">
+        <img src="/Attractive view/Brush Script MT, Brush Script Std, cursive.jpeg" class="card-img-top h-50" alt="...">
+        <div class="card-body text-start">
+          <h1 class="fs-6" style="color: gray;" >by-acrylic-and-oil-helen-carajova</h1>
+          <h5 class="card-title">-Attractive  hill view-</h5>
+          <p class="card-text fw-normal " style="color: gray;">oil painting is all about creating interesting effects—whether that’s a unique texture, a metallic effect or striking colour combination. </p>
+          <h1 class="fs-6">-Read More-</h1>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 image-container ">
+        <img src="/Attractive view/Moon Rising by kelly Brown.jpeg" class="card-img-top h-50" alt="...">
+        <div class="card-body text-start">
+          <h1 class="fs-6" style="color: gray;" >by kelly Brown</h1>
+          <h5 class="card-title">-Moon Rising -</h5>
+          <p class="card-text fw-normal " style="color: gray;">oil painting is all about creating interesting effects—whether that’s a unique texture, a metallic effect or striking colour combination. </p>
+          <h1 class="fs-6">-Read More-</h1>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 image-container ">
+        <img src="/Attractive view/The East Dart River is a river that runs through Dartmoor, and one that I regularly enjoy walking by--and painting it.jpeg" class="card-img-top h-50" alt="...">
+        <div class="card-body text-start">
+          <h1 class="fs-6" style="color: gray;" >by-acrylic-and-oil-helen-carajova</h1>
+          <h5 class="card-title">-The East Dart River -</h5>
+          <p class="card-text fw-normal " style="color: gray;">oil painting is all about creating interesting effects—whether that’s a unique texture, a metallic effect or striking colour combination. </p>
+          <h1 class="fs-6">-Read More-</h1>
+        </div>
+        
+      </div>
+    </div>
+
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   
+   
+
+  </div>
+  
+</div>
+<!-- Attractive painting end -->
+
+
+
+
+
+    <!-- mail section -->
+
+    <section class=" backpart" style="width: 1529px">
+      <input placeholder="" class="lekha"  type="Email" /><button
+        class="bg-dark last-btn text-light"
+        style="margin-left: -2rem; border: 1px solid black"
+      >
+        Submit
+      </button>
+      <div class="bg-light " style="width: 350PX; height: 150PX; margin-left: 600PX; text-align: center; padding-top: 50PX;">
+        <h1 style="font-family: Brush Script MT, Brush Script Std, cursive;color: gray; padding-left: 40PX; padding-right: 40PX;" >instagram</h1>
+        <h2>DAILY INSPIRATION</h2>
+      </div>
+    </section>
+
+    <!-- mail section end -->
+
+    <!-- footer start -->
+    <div class="">
+      <div class="d-flex">
+        <div class="text-center grid footer">
+          <h2>CONTACT</h2>
+          <p class="text-light card-text fst-italic">
+            Address: Seestrasse 21, Zurich <br />
+            E-mail: biagiotti@qodeinteractive.com<br />
+            Phone : + 99 411 725 39 12<br />
+            <br />
+          </p>
+          <img src="/LOGO/card/bkash.jpg" style="width: 30px" />
+          <img src="/LOGO/card/credit card.jpg" style="width: 40px" />
+          <img src="/LOGO/card/credit card1.jpg" style="width: 30px" />
+          <img src="/LOGO/card/credit card2.jpg" style="width: 40px" />
+          <img src="/LOGO/card/credit card3.jpg" style="width: 30px" />
+        </div>
+        <div class="text-center grid footer">
+          <h2
+            class="fst-italic"
+            style="font-family: Brush Script MT, Brush Script Std, cursive"
+          >
+            Canvas Picker
+          </h2>
+          <p class="text-light card-text fst-italic">
+            An oasis of online beauty built specifically <br />
+            so your new cosmetics site can take everyone’s breaths away.<br />
+            <br />
+            Privacy Policy | Terms of use
+          </p>
+          <i class="fa-brands fa-facebook-f p-2 m-1"></i>
+          <i class="fa-brands fa-twitter p-2 m-1"></i>
+          <i class="fa-brands fa-linkedin-in p-2 m-1"></i>
+          <i class="fa-brands fa-tiktok p-2 m-1"></i>
+        </div>
+        <div class="text-center grid footer">
+          <h2 class="fst-italic">COLLECTIONS</h2>
+          <p class="text-light card-text fst-italic">
+            Glowing paint is a result <br />
+            ABCDEH Canvas – Forever Painting<br />
+            Pure Painter Solutions
+            <br />
+          </p>
+        </div>
+      </div>
+      <div class="container-fluid border-subtle bg-dark border-top">
+        <div class="d-flex justify-content-around">
+          <a class="navbar-brand text-white" href="#">PRIVACY POLICY</a>
+          <a class="navbar-brand text-white" href="#">TERMS AND CONDITIONS</a>
+          <a class="navbar-brand text-white" href="#">ABOUT</a>
+          <a class="navbar-brand text-white" href="#">SHIPPING INFO</a>
+          <a class="navbar-brand text-white" href="#">RETURNS/EXCHANGES</a>
+          <a class="navbar-brand text-white" href="#">CONTACT</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ftr end -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
