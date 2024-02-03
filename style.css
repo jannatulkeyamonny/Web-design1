@@ -3,7 +3,18 @@ li{
     list-style-type: none;
 }
 
-
+.btnk:hover{
+background-color: black;
+color: white;
+border:none;
+transition: 0.5s;
+}
+.btnm:hover {
+    background-color: black;
+    color: white;
+    border:none;
+    transition: 0.5s; 
+}
 .backpart{
     background-image: url(./Free-Background-1.jpg);
 }
@@ -40,9 +51,17 @@ li{
     border:1px solid dark;
     margin-left: 800PX;
     margin-top: 100PX;
+    color: gray;
 }
-.last-btn{
+.ttt{
     width:9rem;
     height:2.5rem;
-    border:1px solid dark;
+    color: #ffffff;
+    background-color: black;
+}
+.ttt:hover{
+    background-color:white;
+    color:gray;
+    border:1px solid black;
+
 }
