@@ -1,8 +1,10 @@
 
+
+/* Nav-bar Section  */
 li{
     list-style-type: none;
 }
-
+/* Timeline Section */
 .btnk:hover{
 background-color: black;
 color: white;
@@ -15,12 +17,13 @@ transition: 0.5s;
     border:none;
     transition: 0.5s; 
 }
+/* Mail Section */
 .backpart{
     background-image: url(./Free-Background-1.jpg);
 }
 
 
-
+/* Footer Section */
 
 .footer{
     padding-top: 130px;
