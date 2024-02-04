@@ -23,6 +23,43 @@ transition: 0.5s;
 }
 
 
+
+
+/* Image container */
+
+.image-container img{
+    transition: transform 0.3s ease-in-out;
+}
+.image-container img:hover{
+    transform: scale(1.2);
+}
+
+
+/* Mail Section */
+.ttt{
+    width:9rem;
+    height:2.5rem;
+    color: #ffffff;
+    background-color: black;
+}
+.ttt:hover{
+    background-color:white;
+    color:gray;
+    border:1px solid black;
+
+}
+/* footer */
+.lekha{
+    width:30rem;
+    height:2.5rem;
+    border:1px solid dark;
+    margin-left: 800PX;
+    margin-top: 100PX;
+    color: gray;
+}
+
+
+
 /* Footer Section */
 
 .footer{
@@ -41,33 +78,3 @@ transition: 0.5s;
     border-radius: 100%;
 
 }
-.image-container img{
-    transition: transform 0.3s ease-in-out;
-}
-.image-container img:hover{
-    transform: scale(1.2);
-}
-/* footer */
-.lekha{
-    width:30rem;
-    height:2.5rem;
-    border:1px solid dark;
-    margin-left: 800PX;
-    margin-top: 100PX;
-    color: gray;
-}
-.ttt{
-    width:9rem;
-    height:2.5rem;
-    color: #ffffff;
-    background-color: black;
-}
-.ttt:hover{
-    background-color:white;
-    color:gray;
-    border:1px solid black;
-
-}
-
-
-
